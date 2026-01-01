@@ -1,2 +1,2 @@
 # Kart-Savasi-Oyunu
-Strateji gerektiren kart oyunu.
+Strateji uzerine kurulmus kart savasi oyunudur. OOP ile kodlanmistir. 3 adet zorluk seviyesi bulunur. Oyuncu istedigi zorluk seviyesinde oynayabilir. Detayli bilgi oyun icindeki "Nasil Oynanir?" adli kisimda mevcuttur.
