@@ -343,6 +343,8 @@ public class App {
     static void warTour() {
         int playerPower = playerMove.getPower();
         int computerPower = computerMove.getPower();
+        human.mana -= playerPower;
+        computer.mana -= computerPower;
         delay(1000);
         System.out.println("Sizin kartiniz: " + playerMove.card.name + " Saldiri: " + playerMove.card.attack
                 + " Defans: " + playerMove.card.defense);
@@ -373,8 +375,6 @@ public class App {
     }
 
     static void endTour(int playerPower, int computerPower) {
-        human.mana -= playerPower;
-        computer.mana -= computerPower;
         if (computerDamage >= 2) {
             computer.hp += 3;
         }
