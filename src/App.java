@@ -105,7 +105,7 @@ public class App {
             delay(1000);
             System.out.println("Her oyuncuya +5 mana verildi");
             computer.mana += 5;
-            human.hp += 5;
+            human.mana += 5;
         } else if (currentEvent.id == 7) {
             delay(1000);
             System.out.println("Oyuncular zehirlendi! her oyuncunun HP'si -3 dusuruldu.");
